@@ -16,6 +16,25 @@ const routes = [
         component:()=>import('../views/index.vue')
         
       },
+      {
+        path:'/menu',
+        name:'menu',
+        component:()=>import('../views/sys/Menu.vue')
+        
+      },
+      {
+        path:'/role',
+        name:'role',
+        component:()=>import('../views/sys/Role.vue')
+        
+      },
+      {
+        path:'/user',
+        name:'user',
+        component:()=>import('../views/sys/User.vue')
+        
+      },
+
     ]
   },
   {

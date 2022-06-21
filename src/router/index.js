@@ -16,20 +16,26 @@ const routes = [
         component:()=>import('../views/index.vue')
         
       },
+
       {
-        path:'/menu',
+          path:'/sys/PersonalCentor',
+          name:'PersonalCentor',
+          component:()=>import('../views/sys/PersonalCenter.vue')
+      },
+      {
+        path:'/sys/menu',
         name:'menu',
         component:()=>import('../views/sys/Menu.vue')
         
       },
       {
-        path:'/role',
+        path:'/sys/role',
         name:'role',
         component:()=>import('../views/sys/Role.vue')
         
       },
       {
-        path:'/user',
+        path:'/sys/user',
         name:'user',
         component:()=>import('../views/sys/User.vue')
         

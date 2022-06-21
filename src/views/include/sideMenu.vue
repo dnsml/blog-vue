@@ -21,21 +21,21 @@
         <span>系统管理</span>
       </template>
 
-      <router-link to="menu">
+      <router-link to="/sys/menu">
         <el-menu-item index="1-1">
           <i class="el-icon-setting"></i>
           <span slot="title">菜单管理</span>
         </el-menu-item>
       </router-link>
 
-      <router-link to="role">
+      <router-link to="/sys/role">
         <el-menu-item index="1-2">
           <i class="el-icon-setting"></i>
           <span slot="title">角色管理</span>
         </el-menu-item>
       </router-link>
 
-      <router-link to="user">
+      <router-link to="/sys/user">
         <el-menu-item index="1-3">
           <i class="el-icon-setting"></i>
           <span slot="title">用户管理</span>

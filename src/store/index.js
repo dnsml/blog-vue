@@ -13,6 +13,10 @@ export default new Vuex.Store({
       state.token = token
       localStorage.setItem('token', token)
     }
+    ,
+    resetState:(state)=>{
+      state.token='1'
+    }
   },
   actions: {
   },

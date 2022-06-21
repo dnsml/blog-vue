@@ -96,8 +96,6 @@ export default {
           this.$axios.post("/login", this.loginForm).then((res) => {
             // const jwt = res.headers[authorization];
 
-
-          console.log(res);
           let jwt=132456;
             this.$store.commit("SET_TOKEN", jwt);
             this.$router.push("/index");
